@@ -2,7 +2,7 @@
 	tippy('.js-tooltip-btn', {
 		trigger: "click",
 		theme: 'custom-tooltip',
-		arrow: false,
+		arrow: true,
 		interactive: true,
 	});
 })();

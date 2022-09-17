@@ -23,12 +23,13 @@
 
 		.addField('.js-input-tel', [
 			{
-				rule: 'number',
-				errorMessage: 'Недопустимый формат',
-			},
-			{
 				rule: 'required',
 				errorMessage: 'Введите телефон',
 			},
 		])
+
+	var selector = document.querySelector("input[type='tel']");
+
+	var im = new Inputmask("+7 (999)-999-99-99");
+	im.mask(selector);
 })();

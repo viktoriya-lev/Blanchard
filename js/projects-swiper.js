@@ -2,7 +2,6 @@
 	let projectsSwiper = new Swiper(".js-projects-swiper", {
 		slidesPerView: 1,
 		spaceBetween: 20,
-		loop: true,
 
 		grid: {
 			rows: 1,
