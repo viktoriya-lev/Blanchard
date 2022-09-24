@@ -3101,12 +3101,8 @@ svg {
 		width: calc(660 / 1024 * 100%);
 	}
 
-	/* .gallery__swiper-slide {
-		height: 315px;
-	} */
-
 	.gallery__swiper-slide::before {
-		padding-top: calc(85% - 6px);
+		padding-top: calc(111% - 6px);
 	}
 
 	.gallery__checkboxes {
@@ -3126,6 +3122,10 @@ svg {
 	.gallery__left {
 		margin-bottom: 50px;
 	}
+
+	.gallery__swiper-slide::before {
+		padding-top: calc(103% - 6px);
+	}
 }
 
 @media (max-width: 768px) {
@@ -3136,11 +3136,6 @@ svg {
 	.gallery__left {
 		margin-bottom: 25px;
 	}
-
-	/* 
-	.gallery__swiper-slide {
-		height: 330px;
-	} */
 }
 
 @media (max-width: 420px) {
@@ -3179,12 +3174,8 @@ svg {
 		margin-top: 20px;
 	}
 
-	/* .gallery__swiper-slide {
-		height: 367px;
-	} */
-
 	.gallery__swiper-slide::before {
-		padding-top: calc(110% - 6px);
+		padding-top: calc(127% - 6px);
 	}
 }
 
